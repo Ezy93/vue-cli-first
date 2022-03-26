@@ -1,5 +1,5 @@
 <template>
-  <h1>
+  <h1 class="py-2 text-white bg-dark my-0">
     la mia prima app con vue <span class="text-uppercase">cli!</span> 
   </h1>
 </template>

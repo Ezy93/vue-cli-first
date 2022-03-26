@@ -1,16 +1,19 @@
 <template>
-  <div id="app">
-    <newTitle msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="mt-0">
+    <newTitle/>
+    <new-hero/>
   </div>
 </template>
 
 <script>
-import newTitle from './components/newTitle.vue'
+import newHero from './components/newHero.vue';
+import newTitle from './components/newTitle.vue';
 
 export default {
   name: 'App',
   components: {
-    newTitle
+    newTitle,
+    newHero
   }
 }
 </script>
